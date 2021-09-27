@@ -87,7 +87,7 @@ class motor(Thread):
                 self.oneDirection(motor_step_counter,False)
                 self.oneDirection(motor_step_counter, True)
             else:
-                print("I FOUYND YOU BITTTTTCHHHHHHH")
+                print("Human Detected!!!")
                 self.cleanup()
             
 
